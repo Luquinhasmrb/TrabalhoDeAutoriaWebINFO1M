@@ -1,0 +1,131 @@
+body {
+    background-color: #001F3F;
+    color: white;
+    text-align: center;
+}
+
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+
+p {
+    color: white;
+    margin: 15px;
+}
+
+
+h2 {
+    font-size: 30px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+/* Card styles, TODAS AS AUTERAÇÕES FEITAS NA PAGINA COM O BOOTSTRAP */
+
+.card h1,
+.card p {
+    color: white;
+}
+
+
+.card {
+    background-color: #164E75;
+}
+
+.card {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*Celulares*/
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        margin: 8px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    th,
+    td {
+        font-size: 14px;
+        padding: 4px;
+    }
+
+    .card {
+        padding: 16px !important;
+    }
+}
+
+/* Tablets e computadores */
+@media (min-width: 601px) and (max-width: 900px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+/* Personalização da tabela com Bootstrap */
+table.table {
+    --bs-table-bg: #001F3F;
+    --bs-table-color: white;
+    --bs-table-border-color: white;
+}
+
+/* Células da tabela */
+table.table td {
+    background-color: #001F3F;
+    color: white;
+    box-shadow: none;
+}
+
+/* Cabeçalho azul-claro */
+table.table th {
+    background-color: #164E75;
+    color: white;
+    box-shadow: none;
+}
+
+/* Duas colunas com a mesma largura */
+table.table th,
+table.table td {
+    width: 50%;
+}
+
+
+.icone-site {
+    margin: 5px;
+    transition: transform 0.3s;
+}
+
+.icone-site:hover {
+    transform: scale(1.15);
+}
+
+
+.minha-foto {
+    border: 3px solid white;
+    margin: 10px;
+    transform: translateY(-25px);
+}
+
+
+th,
+td {
+    color: white;
+    padding: 5px;
+}
